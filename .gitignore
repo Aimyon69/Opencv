@@ -1,1 +1,4 @@
 /README.md
+__pycache__/
+/videoCapture/cap.avi
+/MsPlusFd/cap.avi
