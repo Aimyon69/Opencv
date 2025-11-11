@@ -13,7 +13,7 @@ else:
     frame_wid=int(cap.get(3))
     face_cas = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_frontalface_default.xml')
     eye_cas = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_eye.xml')
-    out=cv.VideoWriter('D:\Code\Opencv\MsPlusFd\\cap.mp4',cv.VideoWriter_fourcc('M','J','P','G'),25,(frame_wid,frame_hei))
+    out=cv.VideoWriter('D:\Code\Opencv\MsPlusFd\\cap.avi',cv.VideoWriter_fourcc('M','J','P','G'),25,(frame_wid,frame_hei))
     while(cap.isOpened()):
         ret,frame=cap.read()
         if ret==True:
